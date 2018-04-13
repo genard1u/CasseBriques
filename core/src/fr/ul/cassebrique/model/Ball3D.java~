@@ -1,0 +1,50 @@
+package fr.ul.cassebrique.model;
+
+import com.badlogic.gdx.graphics.VertexAttributes;
+import com.badlogic.gdx.graphics.g3d.Material;
+import com.badlogic.gdx.graphics.g3d.Model;
+import com.badlogic.gdx.graphics.g3d.ModelInstance;
+import com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute;
+import com.badlogic.gdx.graphics.g3d.utils.ModelBuilder;
+import com.badlogic.gdx.math.Vector2;
+import fr.ul.cassebrique.dataFactories.TextureFactory;
+
+public class Ball3D extends Ball {
+
+    private ModelInstance boule3D; // Instance du modèle de la boule 3D
+
+
+    public Ball3D(GameWorld gw) {
+        super(gw);
+        // initialiseModelInstance();
+    }
+
+    public Ball3D(GameWorld gw, Vector2 pos) {
+        super(gw, pos);
+        // initialiseModelInstance();
+    }
+
+    /* private void initialiseModelInstance() {
+        // Créateur d'objets 3D simples
+        ModelBuilder mb = new ModelBuilder();
+
+        int id = VertexAttributes.Usage.Position |
+                 VertexAttributes.Usage.Normal |
+                 VertexAttributes.Usage.TextureCoordinates;
+
+        TextureAttribute texAtt = TextureAttribute.createDiffuse(TextureFactory.getTexBall());
+
+        Material mat = new Material(texAtt);
+
+        Model modele = mb.createSphere(2,
+                                       2,
+                                       40,
+                                       40,
+
+        );
+
+
+    } */
+
+}
+

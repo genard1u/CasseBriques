@@ -1,0 +1,40 @@
+package fr.ul.cassebrique.model;
+
+public class ElapsedTime {
+  
+    private BitmapFont police;
+  
+    private float tempsEcoule;
+
+  
+    public ElapsedTime() {
+        instanciePolice();
+        tempsEcoule = 0f;	
+    }
+
+    private void instanciePolice() {
+        FreeTypeFontGenerator fGen = new FreeTypeFontGenerator(Gdx.files.internal("fonts/maFont.ttf"));
+        FreeTypeFontGenerator.FreeTypeFontParameter fParams = new FreeTypeFontGenerator.FreeTypeFontParameter();
+
+        fParams.size = 40;
+	fParams.color = new Color(1f, 1f, 0f, 0.75f);
+	fParams.borderColor = Color.YELLOW;
+	fParams.borderWidth = 3;
+
+	police = fGen.generateFont(fParams);
+	fGen.dispose();
+    }
+  
+    public void remettreAZero() {
+        tempsEcoule = 0f;
+    }
+
+    public void draw(SpriteBatch sb) {
+        tempsEcoule += Gdx.graphics.getDeltaTime();
+
+	String temps = "" + Math.ceil(tempsEcoule);
+	
+	police.draw(sb, temps, 1100, 650);
+    }
+  
+}

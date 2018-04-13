@@ -1,0 +1,228 @@
+boule.bmp
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boule
+rotate: false
+xy: 0, 0
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 0
+boule
+rotate: false
+xy: 0, 64
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 1
+boule
+rotate: false
+xy: 0, 128
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 2
+boule
+rotate: false
+xy: 0, 192
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 3
+boule
+rotate: false
+xy: 0, 256
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 4
+boule
+rotate: false
+xy: 0, 320
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 5
+boule
+rotate: false
+xy: 0, 384
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 6
+boule
+rotate: false
+xy: 0, 448
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 7
+boule
+rotate: false
+xy: 0, 512
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 8
+boule
+rotate: false
+xy: 0, 576
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 9
+boule
+rotate: false
+xy: 0, 640
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 10
+boule
+rotate: false
+xy: 0, 704
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 11
+boule
+rotate: false
+xy: 0, 768
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 12
+boule
+rotate: false
+xy: 0, 832
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 13
+boule
+rotate: false
+xy: 0, 896
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 14
+boule
+rotate: false
+xy: 0, 960
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 15
+boule
+rotate: false
+xy: 0, 1024
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 16
+boule
+rotate: false
+xy: 0, 1088
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 17
+boule
+rotate: false
+xy: 0, 1152
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 18
+boule
+rotate: false
+xy: 0, 1216
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 19
+boule
+rotate: false
+xy: 0, 1280
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 20
+boule
+rotate: false
+xy: 0, 1344
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 21
+boule
+rotate: false
+xy: 0, 1408
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 22
+boule
+rotate: false
+xy: 0, 1472
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 23
+boule
+rotate: false
+xy: 0, 1536
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 24
+boule
+rotate: false
+xy: 0, 1600
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 25
+boule
+rotate: false
+xy: 0, 1664
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 26
+boule
+rotate: false
+xy: 0, 1728
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 27
+boule
+rotate: false
+xy: 0, 1792
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 28
+boule
+rotate: false
+xy: 0, 1856
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 29
+boule
+rotate: false
+xy: 0, 1920
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 30
+boule
+rotate: false
+xy: 0, 1984
+size: 64, 64
+orig: 64, 64
+offset: 0, 0
+index: 31
